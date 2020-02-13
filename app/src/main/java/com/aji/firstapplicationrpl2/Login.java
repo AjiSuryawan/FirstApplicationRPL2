@@ -39,6 +39,7 @@ public class Login extends AppCompatActivity {
                     //bisa melempar nilai
                     in.putExtra("username", txtusername.getText().toString());
                     startActivity(in);
+                    finish();
                 }
             }
         });
